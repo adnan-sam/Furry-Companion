@@ -6,7 +6,7 @@ import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 
-import driveImg from "../assets/all-images/drive.jpg";
+import driveImg from "../assets/all-images/group_pet_about.jpg";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
 
@@ -28,7 +28,7 @@ const About = () => {
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
                 <h2 className="section__title">
-                  We Are Committed To Provide Safe Ride Solutions
+                  We Are Committed To Provide Safe & Enjoyable experience
                 </h2>
 
                 <p className="section__description">
@@ -68,7 +68,7 @@ const About = () => {
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section__subtitle">Experts</h6>
-              <h2 className="section__title">Our Members</h2>
+              <h2 className="section__title">Our Team Members</h2>
             </Col>
             <OurMembers />
           </Row>
