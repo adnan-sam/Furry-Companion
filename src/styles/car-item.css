@@ -1,11 +1,11 @@
 .car__item {
-  border: 1px solid #7c8a9736;
+  border: 1px solid #09090936;
   padding: 20px;
   border-radius: 5px;
 }
 
 .car__item-info span i {
-  color: #f9a826;
+  color: #ff00ea;
   font-size: 1.1rem;
 }
 
@@ -13,7 +13,7 @@
   border-radius: 0;
   border: none;
   outline: none;
-  background: #000d6b;
+  background: #9f00f5;
   padding: 8px 0px;
 }
 
@@ -24,10 +24,10 @@
 }
 
 .car__item-btn a:hover {
-  color: #fff;
+  color: #000000;
 }
 .car__btn-details {
-  background: #f9a826;
+  background: #ff7ce9;
   border-radius: 0px 4px 4px 0px;
 }
 

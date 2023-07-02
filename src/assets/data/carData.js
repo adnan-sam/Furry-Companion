@@ -1,23 +1,23 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img01 from "../all-images/cars-img/pussy-cat.jpeg";
+import img02 from "../all-images/cars-img/Golden_Retriever_Dukedestiny.jpg";
+import img03 from "../all-images/cars-img/doggo.jpeg";
+import img04 from "../all-images/cars-img/pussy-cat.jpeg";
+import img05 from "../all-images/cars-img/Golden_Retriever_Dukedestiny.jpg";
+import img06 from "../all-images/cars-img/doggo.jpeg";
+import img07 from "../all-images/cars-img/Golden_Retriever_Dukedestiny.jpg";
+import img08 from "../all-images/cars-img/doggo.jpeg";
 
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "B1",
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "COCO",
     imgUrl: img01,
-    model: "Model 3",
+    model: "Persian",
     price: 50,
-    speed: "20kmpl",
+    speed: "9 years",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
@@ -27,13 +27,13 @@ const carData = [
 
   {
     id: 2,
-    brand: "Toyota",
+    brand: "B2",
     rating: 102,
-    carName: "Toyota Aventador",
+    carName: "Bear",
     imgUrl: img02,
-    model: "Model-2022",
+    model: "Pumerian",
     price: 50,
-    speed: "20kmpl",
+    speed: "10 years",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
@@ -43,13 +43,13 @@ const carData = [
 
   {
     id: 3,
-    brand: "BMW",
+    brand: "B3",
     rating: 132,
-    carName: "BMW X3",
+    carName: "Angel",
     imgUrl: img03,
-    model: "Model-2022",
+    model: "bulldog",
     price: 65,
-    speed: "20kmpl",
+    speed: "10 years",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
@@ -59,13 +59,13 @@ const carData = [
 
   {
     id: 4,
-    brand: "Nissan",
+    brand: "B4",
     rating: 102,
-    carName: "Nissan Mercielago",
+    carName: "Duke",
     imgUrl: img04,
-    model: "Model-2022",
+    model: "RagDoll",
     price: 70,
-    speed: "20kmpl",
+    speed: "8 years",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
@@ -75,13 +75,13 @@ const carData = [
 
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "B5",
     rating: 94,
-    carName: "Ferrari Camry",
+    carName: "Camry",
     imgUrl: img05,
-    model: "Model-2022",
+    model: "Pug",
     price: 45,
-    speed: "20kmpl",
+    speed: "5 years",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
@@ -91,13 +91,13 @@ const carData = [
 
   {
     id: 6,
-    brand: "Mercedes",
+    brand: "B6",
     rating: 119,
-    carName: "Mercedes Benz XC90",
+    carName: "Buddy",
     imgUrl: img06,
-    model: "Model-2022",
+    model: "Retriever",
     price: 85,
-    speed: "20kmpl",
+    speed: "7 years",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
@@ -107,13 +107,13 @@ const carData = [
 
   {
     id: 7,
-    brand: "Audi",
+    brand: "B7",
     rating: 82,
     carName: "Audi Fiesta",
     imgUrl: img07,
-    model: "Model 3",
+    model: "Bulldog",
     price: 50,
-    speed: "20kmpl",
+    speed: "26 years",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
@@ -123,13 +123,13 @@ const carData = [
 
   {
     id: 8,
-    brand: "Colorado",
+    brand: "B8",
     rating: 52,
-    carName: "Rolls Royce Colorado",
+    carName: "Royce",
     imgUrl: img08,
-    model: "Model 3",
+    model: "Retriever",
     price: 50,
-    speed: "20kmpl",
+    speed: "2 years",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
