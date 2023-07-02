@@ -1,3 +1,6 @@
+.about__page-img img{
+  mix-blend-mode:multiply;
+}
 @media only screen and (max-width: 992px) {
   .about__page-content h2 {
     font-size: 1.5rem;

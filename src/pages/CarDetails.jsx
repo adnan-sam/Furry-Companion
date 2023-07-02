@@ -35,7 +35,7 @@ const CarDetails = () => {
                   </h6>
 
                   <span className=" d-flex align-items-center gap-2">
-                    <span style={{ color: "#f9a826" }}>
+                    <span style={{ color: " #ff00ea" }}>
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>
@@ -56,30 +56,30 @@ const CarDetails = () => {
                 >
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i
-                      class="ri-roadster-line"
-                      style={{ color: "#f9a826" }}
+                      class="fa fa-paw"
+                      style={{ color: " #ff00ea" }}
                     ></i>{" "}
                     {singleCarItem.model}
                   </span>
-
+{/* 
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i
                       class="ri-settings-2-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
                     {singleCarItem.automatic}
-                  </span>
+                  </span> */}
 
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i
-                      class="ri-timer-flash-line"
-                      style={{ color: "#f9a826" }}
+                      class="fa fa-pagelines"
+                      style={{ color: " #ff00ea" }}
                     ></i>{" "}
                     {singleCarItem.speed}
                   </span>
                 </div>
 
-                <div
+                {/* <div
                   className=" d-flex align-items-center mt-3"
                   style={{ columnGap: "2.8rem" }}
                 >
@@ -103,7 +103,7 @@ const CarDetails = () => {
                     ></i>{" "}
                     {singleCarItem.brand}
                   </span>
-                </div>
+                </div> */}
               </div>
             </Col>
 

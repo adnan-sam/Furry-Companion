@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
 
-import driverImg from "../../assets/all-images/toyota-offer-2.png";
+import driverImg from "../../assets/all-images/become_trainer.png";
 
 const BecomeDriverSection = () => {
   return (
@@ -19,7 +19,7 @@ const BecomeDriverSection = () => {
             </h2>
 
             <button className="btn become__driver-btn mt-4">
-              Become a Driver
+              Become a Trainer
             </button>
           </Col>
         </Row>

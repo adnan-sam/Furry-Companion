@@ -15,7 +15,7 @@ const navLinks = [
   },
   {
     path: "/cars",
-    display: "Cars",
+    display: "Pets",
   },
 
   {
@@ -36,7 +36,7 @@ const Header = () => {
   return (
     <header className="header">
       {/* ============ header top ============ */}
-      <div className="header__top">
+      {/* <div className="header__top">
         <Container>
           <Row>
             <Col lg="6" md="6" sm="6">
@@ -61,7 +61,7 @@ const Header = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
 
       {/* =============== header middle =========== */}
       <div className="header__middle">
@@ -71,9 +71,9 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
+                    <i class="fa fa-paw"></i>
                     <span>
-                      Rent Car <br /> Service
+                      Rent Your <br /> Companion
                     </span>
                   </Link>
                 </h1>
@@ -86,8 +86,8 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
-                  <h6>Sylhet City, Bangladesh</h6>
+                  <h4>India</h4>
+                  <h6>Kolkata , City Of Joy</h6>
                 </div>
               </div>
             </Col>

@@ -1,21 +1,22 @@
 .footer {
-  background: #000d6b;
+  background: #3b006b;
   padding-top: 50px;
   padding-bottom: 15px;
 }
 
 .footer__logo i {
-  color: #fff;
+  color: #ff00e1;
   font-weight: 400;
+  
 }
 
 .footer__logo span {
-  color: #fff;
+  color: #ff9afd;
   font-weight: 500;
 }
 
 .footer__logo-content {
-  color: rgba(255, 255, 255, 0.715);
+  color: rgb(255, 255, 255);
   margin-top: 15px;
   line-height: 30px;
 }
@@ -26,22 +27,22 @@
 }
 
 .quick__link a {
-  color: rgba(255, 255, 255, 0.715);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 300;
   transition: 0.3s;
 }
 
 .quick__link a:hover {
-  color: #f9a826;
+  color: #a3009e;
 }
 
 .footer__link-title {
-  color: #fff;
+  color: #ff9afd;
 }
 
 .office__info {
-  color: rgba(255, 255, 255, 0.715);
+  color: rgb(255, 255, 255);
   font-weight: 300;
 }
 
@@ -50,9 +51,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px 12px;
-  border: 1px solid #7c8a972f;
+  /* border: 1px solid #977c962f; */
   border-radius: 50px;
-  background: #020a4de9;
+  box-shadow: -2px 2px 19px 0px rgba(255,255,255,0.25);  
+  background: #44024de9;
 }
 
 .newsletter input {
@@ -67,7 +69,11 @@
 }
 
 .footer__bottom {
-  border-top: 1px solid #7c8a972f;
+  border-top: 1px solid #fda1ff;
+}
+
+.footer__bottom .section__description {
+  color: #ff98e9;
 }
 
 @media only screen and (max-width: 768px) {

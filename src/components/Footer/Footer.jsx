@@ -41,9 +41,9 @@ const Footer = () => {
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
+                  <i class="fa fa-paw"></i>
                   <span>
-                    Rent Car <br /> Service
+                    Rent Your <br /> Companion
                   </span>
                 </Link>
               </h1>
@@ -72,10 +72,10 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <p className="office__info">123 Nazirabad , MSIT , KOLKATA</p>
+              <p className="office__info">Phone: +91 0123456789</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: adnansameer@gmail.com</p>
 
               <p className="office__info">Office Time: 10am - 7pm</p>
             </div>
